@@ -10,6 +10,11 @@ public class S4 {
          System.out.println(str.toLowerCase());
          System.out.println(str.contains("Ajay"));
          System.out.println(str.substring(3,6));
+    //print the character array
+         char[] crr = str.toCharArray();
+         for(char ch : crr){
+            System.out.println(ch);
+         }
         
     }
 }
