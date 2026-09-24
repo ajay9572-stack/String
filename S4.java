@@ -15,6 +15,13 @@ public class S4 {
          for(char ch : crr){
             System.out.println(ch);
          }
+
+         //split the output array
+        String name = "My,name,is,Ajay,Kumar";  
+        String[] word = name.split(",") ;
+        for(String st: word){
+            System.out.println(st);
+        }
         
     }
 }
