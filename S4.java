@@ -22,6 +22,8 @@ public class S4 {
         for(String st: word){
             System.out.println(st);
         }
-        
+        // replace old character by new character
+        name = name.replace('n', 'v');
+        System.out.println(name);
     }
 }
